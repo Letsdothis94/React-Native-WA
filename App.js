@@ -1,13 +1,13 @@
-import React from "react";
-import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
-import UpcomingWeather from "./src/screens/UpcomingWeather";
-import City from "./src/screens/City";
+import React from 'react'
+import { View, StyleSheet } from "react-native"
+import City from './src/screens/City'
+import CurrentWeather from './src/screens/CurrentWeather'
 
 const App = () => {
   return (
-      <View style={styles.container}>
-        <City />
-      </View>
+    <View style={styles.container}>
+      <CurrentWeather />
+    </View>
   )
 }
 
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default App;
+export default App
