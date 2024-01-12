@@ -15,7 +15,7 @@ export const weatherType = {
     backgroundColor: "#0000ff",
   },
   Snow: {
-    icon: "clud-snow",
+    icon: "cloud-snow",
     message: "Let`s build a snowman",
     backgroundColor: "#7f6065",
   },
